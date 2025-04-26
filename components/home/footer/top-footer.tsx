@@ -6,7 +6,7 @@ import React from "react";
 const TopFooter = () => {
   return (
     <div className="container grid grid-cols-12 items-end py-8">
-      <div className="col-span-8">
+      <div className="col-span-full text-center lg:col-span-8 lg:text-start">
         <Logo />
         <p>
           متجرنا يقدم أجود المنتجات الطبيعية الأصيلة مثل عسل السدر، الخروب،
@@ -18,7 +18,7 @@ const TopFooter = () => {
         </p>
       </div>
 
-      <div className="col-span-4 flex items-end justify-end gap-4">
+      <div className="col-span-full mt-4 flex items-end justify-center gap-4 lg:col-span-4 lg:mt-0 lg:justify-end">
         <Link href="#">
           <Facebook />
         </Link>

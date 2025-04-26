@@ -14,7 +14,7 @@ const MostPopular = () => {
           description="اكتشف اختيارات عملائنا المميزة! هذه المنتجات حصلت على أعلى تقييمات وأكبر عدد طلبات لما تقدمه من جودة استثنائية وفوائد لا تُضاهى."
         />
 
-        <div className="mb-10 grid grid-cols-1 gap-10 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+        <div className="mb-10 flex flex-wrap justify-center gap-5 md:grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
           {products.map((product) => {
             return <Product key={product.id} {...product} />;
           })}

@@ -6,12 +6,12 @@ const Footer = () => {
     <footer className="mt-20 border-t">
       <TopFooter />
       <div className="border">
-        <div className="container flex h-14 items-center justify-between text-center">
+        <div className="container flex flex-col items-center justify-between py-5 text-center md:h-14 md:flex-row">
           <p>جميع الحقوق محفوظة © 2025</p>
           <div>
             تصميم وبرمجة:{" "}
             <a href="" target="_blank" rel="noopener noreferrer">
-              أحمد محمد
+              عبد المنعم عينو{" "}
             </a>
           </div>
         </div>

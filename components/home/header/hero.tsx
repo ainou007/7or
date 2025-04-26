@@ -5,15 +5,15 @@ import Logo from "@/components/logo";
 const Hero = () => {
   return (
     <div className="flex min-h-[calc(100dvh-56px)] items-center justify-center">
-      {/* <div className="absolute inset-0">
-        <Image
+      <div className="absolute inset-0">
+        {/* <Image
           src={"/bg_hero.jpg"}
           alt="hero image"
           width={1000}
           height={1000}
-          className="h-full w-full object-cover opacity-[.15]"
-        />
-      </div> */}
+          className="h-full w-full object-cover opacity-[.05]"
+        /> */}
+      </div>
       <div className="container text-center lg:text-start">
         <div className="grid grid-cols-12 items-center py-24">
           <div className="col-span-full lg:col-span-7">
